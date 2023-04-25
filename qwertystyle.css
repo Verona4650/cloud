@@ -1,0 +1,73 @@
+.bd{
+    background-color: black;
+    box-sizing: border-box;
+}
+.titlebox{
+    background-color: rgb(10, 10, 10);
+    border: 1.2px solid rgb(247, 244, 244);
+    margin: 0px 25px 40px 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content:space-around;      
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;      
+    align-items: center;
+    margin: 0px 25px;
+    
+}
+.wrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 200px;
+    margin: 0px 0px 0px 10px;
+}
+.box{
+    border: 1px solid #f7f7f8;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+
+}
+.farbig{
+    color:rgb(244, 249, 246);
+    background-color: rgb(0, 10, 1);
+    border: 3px solid rgb(255, 253, 253);
+    border-radius: 10px;
+    width: 95px;
+    height: 53px;
+    margin: 0px 10px 20px 10px;
+}
+.farbig:hover{
+    color: rgb(253, 249, 249);
+
+}
+.sectionfarb{
+    padding: 30px 0px;
+}
+.end{
+    background-color: #70a680;
+    padding: 10px 0 10px 0;
+    height: 40px;
+    margin: 0 25px;
+    border-radius: 2px;
+}
+.defenceLow{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
